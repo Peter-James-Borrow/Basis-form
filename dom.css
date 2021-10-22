@@ -1,0 +1,58 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+
+
+.header-nav {
+    background-color: rgb(4, 167, 4);
+    height:50px;
+    border-bottom: lightgray 3px solid; 
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    
+}
+
+h3 {
+    color: white;
+    font-size: 34px;
+    text-decoration: white underline;
+
+}
+
+.information-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 100px 200px 100px;;
+    height: 300px;
+    background: lightgrey;
+}
+
+input {
+    width: 400px;
+    height: 30px;
+    margin: 10px;
+    padding: 6px;
+}
+
+.button {
+    background-color: rgb(4, 167, 4);
+    color: white;
+    border: none;
+}
+
+.button:hover {
+    background-color: rgb(3, 144, 5);
+   
+}
+
+.error {
+    color: red;
+}
